@@ -1,0 +1,2 @@
+"use strict";function set_focus_area_content_holder_height(){const a=document.querySelectorAll("div.focus-area-content-holder");a.forEach(a=>{a.style.height=`${a.offsetHeight}px`})}const media_query=window.matchMedia("(min-width: 768px)");media_query.addEventListener("change",set_focus_area_content_holder_height),set_focus_area_content_holder_height();
+//# sourceMappingURL=focus-areas.min.js.map

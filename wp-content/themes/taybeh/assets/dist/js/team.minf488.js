@@ -1,0 +1,2 @@
+"use strict";document.addEventListener("DOMContentLoaded",()=>{let a=null;const b=b=>{a&&a.classList.remove("is-active"),b.target.classList.add("is-active"),a=b.target},c=document.querySelectorAll(".team-nav-item-link"),d=document.querySelectorAll(".advisor-nav-item-link");c.forEach(a=>a.addEventListener("click",b)),d.forEach(a=>a.addEventListener("click",b))});
+//# sourceMappingURL=team.min.js.map

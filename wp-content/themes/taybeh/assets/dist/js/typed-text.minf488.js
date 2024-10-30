@@ -1,0 +1,2 @@
+"use strict";document.onreadystatechange=()=>{if("complete"===document.readyState){const a=document.querySelector("h1.hero-heading");a.classList.contains("has-typed-animation")&&new Typed("#typed",{stringsElement:"#typed-headings",typeSpeed:55,backDelay:3e3,onStringTyped:(a,b)=>{b.el.classList.add("highlighted"),a!=3&&setTimeout(()=>{b.el.classList.remove("highlighted")},3500)}})}};
+//# sourceMappingURL=typed-text.min.js.map
